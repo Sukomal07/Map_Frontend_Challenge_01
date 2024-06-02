@@ -1,6 +1,6 @@
 function Skeleton() {
     return (
-        <div className="min-w-[330px] relative bg-gray-200 aspect-[4/5] p-4 animate-pulse">
+        <div className="min-w-[264px] md:min-w-[330px] relative bg-gray-200 aspect-[4/5] p-4 animate-pulse">
             <div className="h-full relative">
                 <div className="w-full h-full rounded-md bg-gray-200"></div>
                 <span className="absolute top-2 right-2 text-white font-semibold py-1 px-6 rounded-md uppercase text-[0.6rem] bg-gray-400">&nbsp;</span>

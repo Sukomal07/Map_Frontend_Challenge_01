@@ -14,7 +14,7 @@ function Card({ image, title, description, tag }) {
     const randomColor = getRandomColor();
 
     return (
-        <div className="min-w-[330px]  bg-white aspect-[4/5] p-4 shadow-lg cursor-pointer  transform transition-transform duration-300 ease-in-out hover:scale-105">
+        <div className="relative min-w-[264px] md:min-w-[330px] bg-white aspect-[4/5] p-4 shadow-lg cursor-pointer transform transition-transform duration-300 ease-in-out hover:scale-105">
             <div className="h-full relative">
                 <img src={image} alt={title} className="w-full h-full rounded-md" />
                 <span className="absolute top-2 right-2 text-white font-semibold py-1 px-2 rounded-md uppercase text-[0.6rem]" style={{ backgroundColor: randomColor }}>{tag}</span>
@@ -31,4 +31,4 @@ function Card({ image, title, description, tag }) {
     )
 }
 
-export default Card
+export default Card;
